@@ -1,0 +1,180 @@
+.menu-container {
+    position: fixed;
+    top: 0;
+    right: 0px;
+    left: 0;
+    width: calc(100% 0px);
+    background-color:#b4b3b3;
+    padding: 1px;
+}
+
+.menu-boton {
+    background-color: #b4b3b3;
+    color: #282727;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;  /* Ajusta este valor para bajar la imagen */
+}
+
+@media (max-width: 768px) { /* Ajuste para pantallas pequeñas */
+    .menu-boton {
+        max-width: 60px;  /* Aumenta el tamaño en dispositivos móviles */
+    }
+}
+
+.menu {
+    display: none;
+    text-align: right;
+    clear: both;
+    margin-right: 10px;
+}
+
+.menu a {
+    display: block;
+    color: #282727;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.menu-imagen {
+    max-width: 4%; 
+    height: auto; 
+    float: left;
+    margin-bottom: 10px;
+    margin-top: 15px;  /* Ajusta este valor para bajar la imagen */
+}
+
+
+@media (max-width: 768px) { /* Ajuste para pantallas pequeñas */
+    .menu-imagen {
+        max-width: 60px;  /* Aumenta el tamaño en dispositivos móviles */
+    }
+}
+
+.nombre_esc {
+    color: #282727;
+    font-size: 2.5vw; /* Tamaño responsive basado en el ancho de la ventana */
+    padding: 20px;    /* Espaciado ajustado */
+    text-align: center; /* Centra el texto */
+    float: left;      /* Evita que flote, mejora en pantallas pequeñas */
+    margin: 0;        /* Elimina márgenes fijos */
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 150vh; 
+    background-color: #f4f4f4;
+    margin-top: 100px; 
+}
+
+
+
+.bienvenida {
+    text-align: center;
+    margin-top: 2%; 
+}
+
+
+.bienvenida-box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.foto_presentacion {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 7px;
+}
+
+
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 0px; 
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Esto separa un poco la imagen del texto */
+}
+
+.footer a {
+    color: white; /* Asegura que el texto sea blanco */
+    display: flex;
+    align-items: center; /* Alinea la imagen y el texto verticalmente */
+    text-decoration: none; /* Quita el subrayado del enlace */
+}
+
+.footer img {
+    margin-right: 5px; /* Agrega un pequeño espacio entre la imagen y el texto */
+}
+
+.acercadenosotros {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 18px;
+            color: #333;
+            max-width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 30px;
+            line-height: 1.6;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+            margin-top: 30px;
+        }
+
+        .acercadenosotros h1 {
+            color: #ac0707;
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+            border-bottom: 3px solid #ac0707;
+            padding-bottom: 10px;
+            display: inline-block;
+        }
+
+        .info-section {
+            margin-bottom: 30px;
+            padding: 20px;
+            border-left: 4px solid #ac0707;
+            background-color: #f8f9fa;
+            border-radius: 0 8px 8px 0;
+            text-align: left;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .info-section:hover {
+            transform: translateX(5px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .info-section h3 {
+            color: #ac0707;
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .info-section p {
+            margin: 0;
+            font-size: 1.1rem;
+            color: #555;
+        }
