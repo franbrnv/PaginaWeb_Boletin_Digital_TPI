@@ -194,16 +194,6 @@ CREATE TABLE `persona` (
 
 INSERT INTO `persona` (`persona_id`, `nombre`, `correo`, `contrasena`, `tipo_usuario_id`, `curso_id`) VALUES
 (1, 'Administración ', 'australnetworks@gmail.com', '228098', 2, NULL),
-(101, 'Lucas Diaz', 'lucasdiaz9845@gmail.com', '2280', 1, 25),
-(102, 'Tiziano Degiovanni', 'tiziano@gmail.com', '22', 1, 25),
-(103, 'Rene Ruiz', 'reneruiz@gmail.com', '1234', 1, 25),
-(104, 'Gonzalo Forneron', 'gonzalo@gmail.com', 'gonza123', 1, 25),
-(105, 'Agustin Colman', 'agustin123@gmail.com', '2280', 1, 25),
-(201, 'Maria Lopez', 'maria@gmail.com', 'pass123', 1, 21),
-(202, 'Juan Perez', 'juan@gmail.com', 'pass123', 1, 21),
-(203, 'Ana Garcia', 'ana@gmail.com', 'pass123', 1, 22),
-(35455891, 'Matias Fernandez', 'matif@gmail.com', '505', 3, 21);
-
 -- --------------------------------------------------------
 
 --
